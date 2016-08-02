@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="parallax.css" rel="stylesheet" type="text/css" >
+<style>
+body {
+    min-height:3000px;
+}
+</style>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.3.1/parallax.min.js"></script>
+
+</head>
+<body>
+
+<header class="black-circle parallax" style="min-height: 979px;">
+	<div class="inner">
+		<div class="ct-page_title">
+			<div class="inner">
+				<h1>
+					<span><img src="images/logo.png"/></span>
+				</h1>
+				<h2>
+					A major trend in web design is parallax scrolling, which involves the background moving at a slower rate to the foreground, creating a 3D effect as you scroll down the page.
+				</h2>
+			</div>
+		</div>
+	</div>
+</header>
+
+<section id="section1" class="ct-u-paddingBoth120" style="min-height: 979px;">
+	<div class="container">
+		<div class="row">
+			<div class="container text-center">
+				<i class="fa fa-users"></i>
+				<h2 class="ct-section_header ct-section_header--type1">
+					Scrolling Parallax
+				</h2>
+				<p>
+					Using parallax to create depth has become commonplace in modern design trends. You can create unique templates that present your website information with a specific design edge.
+				</p><a href="#" class="btn btn-large btn-motive ct-u-marginTop70">Use Solodev's Parallax Integration Today</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="section2" class="black-circle ct-u-paddingBoth120" style="min-height: 979px;">
+	<div class="inner">
+		<div class="ct-page_title">
+			<div class="inner">
+				<h1>
+					<span><img src="images/logo.png"/></span>
+				</h1>
+				<h2>
+					This effect adds a subtle element of depth to the background images of your web pages.
+				</h2>
+			</div>
+		</div>
+	</div>
+</section>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('header').parallax({
+			imageSrc: 'images/background-1.jpg'
+		});
+
+		$('#section2').parallax({
+			imageSrc: 'images/background-3.jpg'
+		});
+	});
+</script>
+
+</body>
+</html>
